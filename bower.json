@@ -1,0 +1,29 @@
+{
+  "name": "angular-zav-modal",
+  "version": "1.1.2",
+  "homepage": "https://github.com/meriadec/angular-zav-modal",
+  "authors": [
+    "meriadec <meriadec.pillet@gmail.com>"
+  ],
+  "description": "Purposed modal for AngularJS.",
+  "license": "BSD",
+  "main": [
+    "dist/ng-zav-modal.min.js",
+    "dist/ng-zav-modal.min.css"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.15",
+    "jquery": "~2.1.3",
+    "gsap": "~1.16.1"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.3.15"
+  }
+}
